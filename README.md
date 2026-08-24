@@ -9,7 +9,7 @@
 
 **A comprehensive, production-grade Python repository featuring real-world applications, Object-Oriented Programming (OOP) architectures, daily programming modules, data structures, and data visualization.**
 
-[Explore Projects](#-featured-projects) • [Tech Stack](#-technologies--tools-used) • [Curriculum Breakdown](#-daily-learning--topic-breakdown) • [📚 Wiki Docs](wiki/Home.md) • [Getting Started](#-getting-started) • [Author](#-author)
+[Explore Projects](#-featured-projects) • [Tech Stack](#-technologies--tools-used) • [Curriculum Breakdown](#-daily-learning--topic-breakdown) • [Getting Started](#-getting-started) • [Author](#-author)
 
 ---
 
@@ -20,7 +20,6 @@
 - [Overview](#-overview)
 - [Technologies & Tools Used](#-technologies--tools-used)
 - [Key Architectural Highlights](#-key-architectural-highlights)
-- [📚 Repository Wiki & Guides](wiki/Home.md)
 - [Featured Projects](#-featured-projects)
   - [1. ATM Simulation System](#1-atm-simulation-system)
   - [2. University & Student Management System](#2-university--student-management-system)
