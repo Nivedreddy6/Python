@@ -7,9 +7,9 @@
 [![GitHub Repo Size](https://img.shields.io/github/repo-size/Nivedreddy6/Python?style=for-the-badge&color=orange)](https://github.com/Nivedreddy6/Python)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/Nivedreddy6/Python?style=for-the-badge&color=purple)](https://github.com/Nivedreddy6/Python)
 
-**A structured, practical repository containing real-world Python projects, Object-Oriented Programming (OOP) architectures, daily learning modules, algorithms, and data visualizations.**
+**A comprehensive, production-grade Python repository featuring real-world applications, Object-Oriented Programming (OOP) architectures, daily programming modules, data structures, and data visualization.**
 
-[Explore Projects](#-featured-projects) • [Curriculum Breakdown](#-daily-learning--topic-breakdown) • [Getting Started](#-getting-started) • [Author](#-author)
+[Explore Projects](#-featured-projects) • [Tech Stack](#-technologies--tools-used) • [Curriculum Breakdown](#-daily-learning--topic-breakdown) • [Getting Started](#-getting-started) • [Author](#-author)
 
 ---
 
@@ -18,7 +18,8 @@
 ## 📖 Table of Contents
 
 - [Overview](#-overview)
-- [Key Features](#-key-features)
+- [Technologies & Tools Used](#-technologies--tools-used)
+- [Key Architectural Highlights](#-key-architectural-highlights)
 - [Featured Projects](#-featured-projects)
   - [1. ATM Simulation System](#1-atm-simulation-system)
   - [2. University & Student Management System](#2-university--student-management-system)
@@ -27,7 +28,6 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Running the Code](#running-the-code)
-- [Tech Stack](#-tech-stack)
 - [Contributing](#-contributing)
 - [Author](#-author)
 
@@ -35,20 +35,34 @@
 
 ## 🌟 Overview
 
-This repository documents an end-to-end Python journey—spanning foundational programming concepts, data structures, control flows, advanced Object-Oriented Programming (OOP), file manipulation, regex, and data visualization.
+This repository documents an end-to-end Python journey—spanning foundational programming concepts, data structures, control flow algorithms, advanced Object-Oriented Programming (OOP), file manipulation, regular expressions, and data visualization.
 
-Whether you're exploring core language mechanics, looking for OOP design patterns in Python, or referencing common algorithm implementations, this repository serves as a modular, hands-on codebase.
+Whether you are exploring core language mechanics, referencing OOP design patterns in Python, or looking for algorithm implementations, this repository serves as a modular, hands-on reference codebase.
 
 ---
 
-## ✨ Key Features
+## 💻 Technologies & Tools Used
 
-- **Object-Oriented Design**: Clean class hierarchies, inheritance, encapsulation, and polymorphism.
-- **Robust Exception Handling**: Real-world edge case validation and defensive programming.
-- **Data Structures in Practice**: Practical implementations of lists, dictionaries, tuples, and sets.
-- **File & System Automation**: Context managers, file streams, and datetime operations.
-- **Data Visualization**: Charts and statistical plots using `matplotlib`.
-- **Modular & Executable**: Every script is self-contained and ready to execute.
+### 🛠️ Technology Stack Breakdown
+
+| Category | Technologies & Tools | Description / Use Case in Project |
+| :--- | :--- | :--- |
+| **Core Language** | ![Python](https://img.shields.io/badge/Python_3.8+-3776AB?style=flat-square&logo=python&logoColor=white) | Primary language used across all projects, scripts, and algorithms |
+| **Data Visualization** | ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white) | Used for line graphs, categorical bar charts, axis styling, and data rendering in [`day_30.py`](day_30.py) |
+| **Standard Libraries** | ![RegEx](https://img.shields.io/badge/RegEx_(re)-Standard_Library-4B8BBE?style=flat-square) ![DateTime](https://img.shields.io/badge/DateTime-Standard_Library-306998?style=flat-square) | Built-in modules used for pattern matching ([`day_26.py`](day_26.py)) and date/time formatting with `strftime` ([`day_28.py`](day_28.py)) |
+| **System & I/O** | ![File IO](https://img.shields.io/badge/File_I%2FO-Context_Managers-FFD43B?style=flat-square&logoColor=black) | File stream buffers and persistent storage operations using `open()` and `with open()` ([`day_25.py`](day_25.py)) |
+| **Programming Paradigms** | ![OOP](https://img.shields.io/badge/OOP-Multiple_Inheritance-2b5b84?style=flat-square) ![Exception Handling](https://img.shields.io/badge/Defensive_Coding-try...except-e05d44?style=flat-square) | Object-oriented systems ([`ATM__Project.py`](ATM__Project.py), [`student_management_project.py`](student_management_project.py)) and robust exception handling ([`day_24.py`](day_24.py)) |
+| **Version Control** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) | Source code management, semantic commits, and remote repository hosting |
+
+---
+
+## ✨ Key Architectural Highlights
+
+- **Object-Oriented Design**: Clean class hierarchies, multiple inheritance, encapsulation, and polymorphism.
+- **Defensive Error Handling**: Catching domain-specific exceptions (`TypeError`, `ValueError`, `ZeroDivisionError`, `NameError`).
+- **Data Structures in Practice**: Deep indexing and manipulation across lists, dictionaries, tuples, and sets.
+- **System & Stream Management**: Context managers (`with open`) ensuring safe file operations.
+- **Statistical Visualization**: Data plotting, axis customization, and chart generation using `matplotlib`.
 
 ---
 
@@ -59,7 +73,7 @@ Whether you're exploring core language mechanics, looking for OOP design pattern
 
 An interactive, terminal-based banking system simulating real ATM workflows using object-oriented principles.
 
-**Core Functionalities:**
+**Key Features:**
 - 🔒 **PIN Authentication**: Secure 4-digit PIN verification with a 3-attempt lockout system.
 - 💵 **Deposit Operations**: Automated threshold checks (minimum ₹1,000 in multiples of 100).
 - 🏧 **Cash Withdrawal**: Balance checks, multi-denomination validation, and instant account updates.
@@ -77,7 +91,7 @@ python ATM__Project.py
 
 A clean demonstration of Python **Multiple Inheritance** and OOP modular design modeling academic relationships between faculty members and students.
 
-**Core Highlights:**
+**Key Features:**
 - Demonstrates `super()` and explicit multi-parent constructor invocation (`faculty.__init__`, `student.__init__`).
 - Unified dashboard view displaying faculty qualifications and student academic records.
 
@@ -149,13 +163,6 @@ python day_23.py
 # Run Data Visualization
 python day_30.py
 ```
-
----
-
-## 💻 Tech Stack
-
-- **Language**: Python 3.8+
-- **Libraries & Tools**: `matplotlib`, `re`, `datetime`, Git & GitHub
 
 ---
 
